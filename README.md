@@ -1,53 +1,53 @@
-# 📊 Bank Marketing Analysis
+# Bank Marketing Analysis
 
-An end-to-end data analytics project exploring the UCI Bank Marketing dataset to identify customer trends and factors influencing term deposit subscriptions.
+An end-to-end data analytics project analysing the UCI Bank Marketing dataset to identify customer trends and factors influencing term deposit subscriptions.
 
-This project demonstrates a complete analytics workflow using Python, SQL, Power BI, and Tableau—from raw data through cleaning, exploration, visualisation, and business insights.
-
----
-
-## 🚀 Project Overview
-
-The objective of this project was to analyse customer data collected during a bank's direct marketing campaigns and answer questions such as:
-
-- Which customer groups are most likely to subscribe?
-- Which occupations respond best to campaigns?
-- Does age influence subscription rates?
-- Which months achieve the highest conversion rates?
-- How do housing loans affect customer behaviour?
+This project demonstrates a complete analytics workflow using Python, SQL, Power BI, and Tableau, from data cleaning and analysis to dashboard development and business insights.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Overview
 
-- Python (Pandas, Matplotlib)
-- SQL (SQLite)
-- Power BI
-- Tableau
-- Git & GitHub
+The project explores customer data from a bank's direct marketing campaigns to answer key business questions, including:
+
+* Which customer groups are most likely to subscribe to a term deposit?
+* Which occupations respond most positively to marketing campaigns?
+* How does age influence subscription rates?
+* Which months generate the highest campaign performance?
+* How do housing loans relate to customer behaviour?
 
 ---
 
-## 📁 Project Structure
+## Technologies
 
-```
+* Python (Pandas, Matplotlib)
+* SQL (SQLite)
+* Power BI
+* Tableau
+* Git & GitHub
+
+---
+
+## Project Structure
+
+```text
 bank-marketing-analysis/
 │
 ├── data/
 │   ├── raw/
-│   └── clean/
+│   └── cleaned/
 │
 ├── notebooks/
-│   └── 01_data_exploration.ipynb
+│   └── bank_marketing_analysis.ipynb
 │
 ├── sql/
 │   └── analysis_queries.sql
 │
 ├── tableau/
-│   └── Bank-Marketing-Dashboard.twbx
+│   └── bank_marketing_dashboard.twbx
 │
 ├── images/
-│   └── dashboard.png
+│   └── dashboard_preview.png
 │
 ├── README.md
 └── requirements.txt
@@ -55,88 +55,66 @@ bank-marketing-analysis/
 
 ---
 
-## 📋 Workflow
+## Workflow
 
-### 1. Data Collection
+### Data Preparation
 
-- Imported the Bank Marketing dataset
-- Explored the dataset structure
-- Identified data quality issues
+* Cleaned and transformed the raw dataset using Python
+* Renamed columns and handled missing or unknown values
+* Exported a cleaned dataset for analysis
 
-### 2. Data Cleaning
+### SQL Analysis
 
-- Renamed columns
-- Converted target values into readable labels
-- Checked for duplicates
-- Analysed unknown values
-- Exported a cleaned dataset
+Performed SQL analysis to investigate:
 
-### 3. Exploratory Data Analysis
+* Customer demographics
+* Subscription rates
+* Account balances
+* Campaign performance
+* Customer segmentation
 
-Analysed:
+### Dashboard Development
 
-- Customer occupations
-- Age distribution
-- Subscription rates
-- Housing loan status
-- Monthly campaign performance
-
-### 4. SQL Analysis
-
-Used SQL to answer business questions including:
-
-- Total customers
-- Total subscriptions
-- Average account balance
-- Subscription rate by occupation
-- Campaign performance by month
-- Customer demographics
-
-### 5. Dashboard Development
-
-Built interactive dashboards in Power BI and Tableau to present insights clearly and support business decision-making.
+Built interactive dashboards in Tableau and Power BI to communicate key findings and support business decision-making.
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
-- Students recorded the highest subscription rate.
-- Blue-collar workers represented the largest customer group.
-- Customers without housing loans subscribed more frequently.
-- Campaign performance varied significantly across different months.
-- Subscription rates differed noticeably between occupations.
-
----
-
-## 📷 Dashboard Preview
-
-_Add a screenshot of your Power BI or Tableau dashboard here._
+* Students recorded the highest subscription rate.
+* Blue-collar workers represented the largest customer segment.
+* Customers without housing loans subscribed more frequently.
+* Campaign performance varied across different months.
+* Subscription rates differed considerably between occupations.
 
 ---
 
-## 💡 Skills Demonstrated
+## Dashboard
 
-- Data Cleaning
-- Data Exploration
-- SQL Querying
-- Data Visualisation
-- Business Intelligence
-- Dashboard Design
-- Data Storytelling
-- Git & GitHub
+*A dashboard preview can be found in the `images` folder.*
 
 ---
 
-## 📂 Dataset
+## Skills Demonstrated
 
-Bank Marketing Dataset (UCI Machine Learning Repository)
+* Data Cleaning
+* SQL
+* Exploratory Data Analysis
+* Data Visualisation
+* Dashboard Development
+* Business Intelligence
+* Git & GitHub
 
 ---
 
-## 👤 Author
+## Dataset
+
+Bank Marketing Dataset – UCI Machine Learning Repository
+
+---
+
+## Author
 
 **Humza Bashir**
 
-GitHub: https://github.com/YOUR_USERNAME
 
-LinkedIn: https://linkedin.com/in/YOUR_PROFILE
