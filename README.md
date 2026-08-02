@@ -22,7 +22,6 @@ The project explores customer data from a bank's direct marketing campaigns to a
 
 * Python (Pandas, Matplotlib)
 * SQL (SQLite)
-* Power BI
 * Tableau
 * Git & GitHub
 
